@@ -18,7 +18,6 @@ function updateClock() {
   sElement.style.transform = `rotate(${sDeg}deg)`
   mElement.style.transform = `rotate(${mDeg}deg)`
   hElement.style.transform = `rotate(${hDeg}deg)`
-
 }
 
 function fixedZero(time) {
@@ -26,3 +25,4 @@ function fixedZero(time) {
 }
 
 setInterval(updateClock, 1000)
+updateClock()
